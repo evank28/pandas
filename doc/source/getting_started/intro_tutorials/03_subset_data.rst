@@ -341,7 +341,7 @@ I’m interested in rows 10 till 25 and columns 3 to 5.
 
 .. ipython:: python
 
-    titanic.iloc[9:25, 2:5]
+    titanic.iloc[10:26, 3:6]
 
 Again, a subset of both rows and columns is made in one go and just
 using selection brackets ``[]`` is not sufficient anymore. When
